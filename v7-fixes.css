@@ -1,0 +1,36 @@
+/* =====================================================================
+ * MetalloPro v7 — css/v7-fixes.css
+ * ===================================================================== */
+.duo-opt { unicode-bidi: plaintext; }
+.duo-opt > span:first-child { overflow-wrap: anywhere; }
+
+.v7-ev-pill {
+  unicode-bidi: isolate; display: inline-block; direction: ltr;
+  background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+  padding: 3px 8px; font-size: 11px; font-family: 'JetBrains Mono', monospace; color: #38bdf8;
+}
+.v7-math-expr {
+  display: inline-block; direction: ltr; unicode-bidi: embed;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.95em; padding: 0 2px;
+}
+.v7-case-card { display: flex; flex-direction: column; gap: 12px; }
+.v7-case-header { display: flex; justify-content: space-between; align-items: center; }
+.v7-case-badge {
+  font-size: 11px; font-weight: 800; color: #fbbf24;
+  background: rgba(251, 191, 36, 0.15); border: 1px solid rgba(251, 191, 36, 0.4);
+  padding: 3px 10px; border-radius: 999px;
+}
+.v7-case-title { font-size: 18px; font-weight: 900; color: #f8fafc; }
+.v7-case-story { font-size: 14px; line-height: 1.8; color: #e2e8f0; }
+.v7-ev-box { background: #091122; border: 1px solid #1e2d4a; border-radius: 12px; padding: 10px 14px; }
+.v7-ev-title { font-size: 12px; font-weight: 700; color: #94a3b8; margin-bottom: 8px; }
+.v7-ev-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.v7-case-tip {
+  font-size: 12.5px; color: #fde68a; background: rgba(7, 13, 25, 0.7);
+  border: 1px solid rgba(251, 191, 36, 0.3); border-radius: 10px; padding: 8px 12px;
+}
+.v7-anatomy-box { border-radius: 12px; padding: 12px 14px; border: 1.5px solid; margin-top: 10px; line-height: 1.75; }
+.v7-anatomy-box.correct { border-color: #10b981; background: rgba(6, 95, 70, 0.25); color: #a7f3d0; }
+.v7-anatomy-box.wrong { border-color: #f43f5e; background: rgba(136, 19, 55, 0.25); color: #fda4af; }
+.v7-anatomy-header { font-weight: 800; font-size: 14.5px; margin-bottom: 6px; }
+.v7-anatomy-body { font-size: 13px; color: #f1f5f9; }
